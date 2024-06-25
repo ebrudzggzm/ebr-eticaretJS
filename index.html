@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>E-Ticaret Sitesi JS/Sepet</title>
+    <link rel="stylesheet" href="./css/styles.min.css">
+</head>
+
+<body>
+
+    <header>
+        <h2>E-Ticaret</h2>
+        <input placeholder="ürün ismi giriniz." />
+        <div>
+            <button id="open-btn">Sepet</button>
+            <button>Kayıt Ol</button>
+            <button>Giriş Yap</button>
+        </div>
+    </header>
+    <main>
+        <section class="categories">
+            <h1>Kategoriler</h1>
+            <div class="cards">
+                <!-- <div>
+                    <img src="../images/background.jpg" alt="">
+                    <button>Clothes</button>
+                </div> -->
+            </div>
+        </section>
+        <section class="products">
+            <h1>Ürünler</h1>
+            <div class="productCards">
+                <!-- <div class="productCard">
+                    <div>
+                        <img src="./images/product1.jpeg" />
+                    </div>
+                    <p>Small Frozen Towels</p>
+                    <p>Others</p>
+                    <div>
+                        <p>753 $</p>
+                        <button>Sepete Ekle</button>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+        <div class="modal-wrapper ">
+            <div class="modal">
+                <img id="close-btn" src="./images/close.png" />
+                <div class="modal-list">
+                    <!-- <div class="list-item">
+                        <img src="./images/Qphac99.jpeg" alt="">
+                        <h2>Classic Red Jogger Sweatpants</h2>
+                        <h2>4464</h2>
+                        <p>Miktar : 1</p>
+                        <button id="delete">Sil</button>
+                    </div> -->
+                </div>
+                <div class="total" style="color: black; flex-grow: 1;">
+                   <span>Total Price :</span>
+                    <span id="modal-info">0</span>
+                    <span>$</span>
+                </div>
+            </div>
+          
+        </div>
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
